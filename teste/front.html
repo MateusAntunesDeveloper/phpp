@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Enviar Valores</h1>
+    <br>
+    <h2>aba anonima </h2>
+    <form action="tokenPROD.php" method="post">
+
+      <label for="valor1">Valor 1:</label>
+      <input type="number" step="any" name="valor1" id="valor1" required>
+
+      <label for="valor3">Valor 2:</label>
+      <input type="number" step="any" name="valor3" id="valor3" required>
+
+      <label for="valor2">Valor 3:</label>
+      <input type="number" step="any" name="valor2" id="valor2" required>
+
+      <label for="dados">Valor diferente:</label>
+      <input type="text" name="dados" id="dados" required>
+
+      <button type="submit" class="btn btn-verde">Enviar</button>
+
+    </form>
+    <form action="info.php">
+      
+      <a href="front2.html" class="btn btn-azul">Crie uma conta</a>
+    </form>
+
+  </div>
+</body>
+</html>
